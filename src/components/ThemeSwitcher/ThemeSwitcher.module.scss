@@ -1,0 +1,25 @@
+.button {
+  cursor: pointer;
+  background-color: var(--ion-background);
+  color: var(--ion-text-color) !important;
+
+  transition: 0.3s all ease;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+
+  & svg {
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    filter: brightness(80%);
+  }
+
+  &:active {
+    filter: brightness(60%);
+  }
+}
